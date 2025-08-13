@@ -15,22 +15,19 @@ Hier können alle Endpunkte direkt getestet werden.
 
 Lokale Installation
 Repository klonen oder als ZIP herunterladen
-
 bash
-Kopieren
-Bearbeiten
-git clone https://github.com/USERNAME/microservice-thesis.git
+git clone https://github.com/IlhamiMu/-IlhamiMu-Urlshortener_archive.git
+cd -IlhamiMu-Urlshortener_archive
 cd microservice-thesis
-Abhängigkeiten installieren
 
+
+Abhängigkeiten installieren
 bash
 Kopieren
 Bearbeiten
 pip install -r requirements.txt
 Service starten
-
 bash
-
 Kopieren
 Bearbeiten
 uvicorn main:app --reload
